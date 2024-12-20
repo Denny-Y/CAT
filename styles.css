@@ -1,7 +1,6 @@
 @font-face {
   font-family: "重庆";
-  src: url("/个人博客/云峰字库重庆山城棒棒体（建议先保存，再下载）/云峰字库重庆山城棒棒体/云峰字库重庆山城棒棒体.ttf")
-    format("truetype");
+  src: url("/云峰字库重庆山城棒棒体.ttf") format("truetype");
 }
 
 body {
