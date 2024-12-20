@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "重庆";
+  src: url("/个人博客/云峰字库重庆山城棒棒体（建议先保存，再下载）/云峰字库重庆山城棒棒体/云峰字库重庆山城棒棒体.ttf")
+    format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: "Arial, sans-serif";
+  position: relative;
+  background-image: linear-gradient(135deg, #f8e7c0, #efd8b5, #d4c4a9, #f8e7c0);
+  color: #333;
+}
+
+header,
+footer {
+  background-image: linear-gradient(135deg, #eaaa77, #d4c4a9, #eaaa77);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 64px;
+  font-family: "重庆";
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.nav-container a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-container a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cat-section {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat-section h2 {
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
+.cat-section p {
+  text-align: center;
+  max-width: 800px;
+}
+
+.cat-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.cat-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.cat-gallery img:hover {
+  transform: scale(1.05);
+}
+footer p {
+  margin: 0;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 48px;
+  }
+
+  .cat-section h2 {
+    font-size: 32px;
+  }
+
+  .nav-container a {
+    padding: 0.4rem 0.8rem;
+  }
+}
+.catpoint {
+  font-size: 12px;
+}
+.catvideo {
+  text-align: center;
+}
